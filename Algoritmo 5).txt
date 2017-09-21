@@ -1,0 +1,17 @@
+5)
+Algoritmo "Volume_do_Paralelopípedo"
+ // Autor:João Lucas
+ // Data:14-09-2017
+ // Descrição:Volume do Paralelopípedo
+Var
+    comprimento, volume,largura,altura : real
+    início
+    escreva("Qual o comprimento?")
+    leia(comprimento)
+    escreva("Qual a largura?")
+    leia(largura)
+    escreva("Qual a altura?")
+    leia(altura)
+    Volume <- comprimento * largura * altura
+    escreva("O volume é", volume)
+Fimalgoritmo
