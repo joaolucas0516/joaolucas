@@ -1,39 +1,41 @@
-Algoritmo "Adiçao_Subtraçao_Multiplicaçao_Divisao"
+Algoritmo "AMPLITDE"
 // Autor(a)    : João Lucas
-// Data atual  : 28/09/2017
+// Data atual  : 29/09/2017
 Var
-numero1,numero2,resultado,opcao : real
-flag,x : LOGICO
+temp1, temp2, temp3, temp4, maior, menor,mm1,mm2,m1,m2,amp:real
 Inicio
-X:=VERDADEIRO
-flag <- x
-enquanto flag faca
-x:=VERDADEIRO
-limpatela
-Escreva ("Qual o numero1? ")
-Leia (numero1)
-Escreva ("Qual o numero2? ")
-Leia (numero2)
-Escreval("(1) Adiçao")
-Escreval("(2) Subtraçao")
-Escreval("(3) Multiplicaçao")
-Escreval("(4) Divisao")
-Escreva ("Qual é a opçao? ")
-Leia (opcao)
-
-Escolha (opcao)
-        Caso 1
-             resultado:= numero1 + numero2
-        Caso 2
-             resultado:= numero1 - numero2
-        Caso 3
-             resultado:= numero1 * numero2
-        Caso 4
-             resultado:= numero1 / numero2
-outrocaso
-Escreval ("Invalido")
-Fimescolha
-Escreva ("o resultado é ",resultado)
-leia(x)
-fimenquanto
+escreval("Qual a primeira temperatura?")
+leia(temp1)
+escreval("Qual a segunda temperatura?")
+leia(temp2)
+escreval("Qual a terceira temperatura?")
+leia(temp3)
+escreval("Qual a quarta temperatura?")
+leia(temp4)
+se (temp1>temp2) entao
+m1 <- temp1
+mm1 <- temp2
+senao
+m1 <- temp2
+mm1 <- temp1
+fimse
+se (temp3>temp4) entao
+m2 <- temp3
+mm2 <- temp4
+senao
+m2 <- temp4
+mm2 <- temp3
+fimse
+se (m1>m2) entao
+maior <- m1
+senao
+maior <- m2
+fimse
+se (mm1<mm2) entao
+menor <- mm1
+senao
+menor <- mm2
+fimse
+amp <- maior - menor
+escreva("A Amplitude Termica é", amp)
 Fimalgoritmo
