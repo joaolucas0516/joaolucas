@@ -1,5 +1,5 @@
-Algoritmo "AdiÁao_SubtraÁao_MultiplicaÁao_Divisao"
-// Autor(a)    : Tiago Lima
+Algoritmo "Adi√ßao_Subtra√ßao_Multiplica√ßao_Divisao"
+// Autor(a)    : Jo√£o Lucas
 // Data atual  : 28/09/2017
 Var
 numero1,numero2,resultado,opcao : real
@@ -14,11 +14,11 @@ Escreva ("Qual o numero1? ")
 Leia (numero1)
 Escreva ("Qual o numero2? ")
 Leia (numero2)
-Escreval("(1) AdiÁao")
-Escreval("(2) SubtraÁao")
-Escreval("(3) MultiplicaÁao")
+Escreval("(1) Adi√ßao")
+Escreval("(2) Subtra√ßao")
+Escreval("(3) Multiplica√ßao")
 Escreval("(4) Divisao")
-Escreva ("Qual È a opÁao? ")
+Escreva ("Qual √© a op√ßao? ")
 Leia (opcao)
 
 Escolha (opcao)
@@ -33,7 +33,7 @@ Escolha (opcao)
 outrocaso
 Escreval ("Invalido")
 Fimescolha
-Escreva ("o resultado È ",resultado)
+Escreva ("o resultado √© ",resultado)
 leia(x)
 fimenquanto
 Fimalgoritmo
