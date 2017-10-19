@@ -1,5 +1,5 @@
 Algoritmo "IMC"
-// Nome: Francisco Sousa
+// Nome: Joao Lucas
 // Data atual  : 19/10/2017
 Var
 p,a,imc:real
@@ -17,7 +17,7 @@ escreva("Magreza Moderada")
 caso 17 ate <18.5
 escreva("Magreza Leve")
 caso 18.5 ate <25
-escreva("Saudável")
+escreva("SaudÃ¡vel")
 caso 25 ate <30
 escreva("Sobre Peso")
 caso 30 ate <35
@@ -25,8 +25,8 @@ escreva("Obsidade Grau I")
 caso 35 ate <40
 escreva("Obsidade Grau II (severa)")
 caso 40 ate 100000000
-escreva("Obsidade Grau III (mórbida)")
+escreva("Obsidade Grau III (mÃ³rbida)")
 outrocaso
-escreva("Inválido")
+escreva("InvÃ¡lido")
 fimescolha
 Fimalgoritmo
